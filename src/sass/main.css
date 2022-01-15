@@ -52,6 +52,12 @@ img {
   margin: -1px;
 }
 
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -61,12 +67,16 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
 }
 
@@ -159,7 +169,7 @@ button {
 }
 
 .contacts {
-  background-color: #FFF5F6;
+  background-color: #fff5f6;
 }
 
 .container {
@@ -202,7 +212,7 @@ button {
 .contacts-cards-type {
   display: inline-block;
   padding: 0px 30px;
-  background: #F0D1A5;
+  background: #f0d1a5;
   border-radius: 4px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -212,11 +222,11 @@ button {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contacts-cards-type--green {
-  background-color: #C2E297;
+  background-color: #c2e297;
 }
 
 .contacts-cards-city {
@@ -225,15 +235,15 @@ button {
 }
 
 .contacts-cards-text {
-  color: #907E82;
+  color: #907e82;
   padding-bottom: 25px;
   padding-top: 10px;
   line-height: 1.5;
 }
 
 .contacts-cards-timetable {
-  border-bottom: 1px solid #E1E1E1;
-  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
   padding-bottom: 25px;
   padding-top: 25px;
 }
@@ -243,13 +253,13 @@ button {
 }
 
 .contacts-cards-time {
-  color: #FFA5BA;
+  color: #ffa5ba;
   margin-bottom: 10px;
 }
 
 .contacts-cards-tel,
 .contacts-cards-mail {
-  color: #907E82;
+  color: #907e82;
   line-height: 1.5;
 }
 
@@ -268,7 +278,7 @@ button {
 }
 
 .contacts-btn {
-  background: #D41342;
+  background: #d41342;
   border-radius: 22px;
 }
 /*# sourceMappingURL=main.css.map */
